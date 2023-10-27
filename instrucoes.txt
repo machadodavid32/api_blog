@@ -1,0 +1,35 @@
+Estamos criando um banco de dados online para esta api
+
+Entre no site supabase.com
+New project
+proxima tela terá alguns dados como nome do projeto e uma senha a ser criada.
+Depois vamos precisar de uma chave emitida pelo supabase
+
+antes instalar a biblioteca psycopg2-binary
+
+Para conseguir esta base vá em:
+settings, database, em Connection String clique em uri e copie a string de conexão
+neste caso: postgresql://postgres:[YOUR-PASSWORD]@db.wkouzncbinerewrgpiqv.supabase.co:5432/postgres
+
+
+obs: aqui > [YOUR-PASSWORD] < substitua pela senha que eu gerei na criação do projeto.
+ficaria assim:
+postgresql://postgres:senhagerada@db.wkouzncbinerewrgpiqv.supabase.co:5432/postgres
+
+
+Para confirmar se deu certo, vá no site e clique em database, lá vai ter o nome das tabelas criadas
+neste projeto
+
+
+NO RENDER
+Outro site para publicar as apis
+
+Criei um ambiente virtual e instalei as seguintes bibliotecas:
+pip install flask flask_sqlalchemy pyjwt gunicorn psycopg2-binary
+Depois digite o codigo seguinte no terminal: pip freeze > requirements.txt
+Este comando vai criar o arquivo requirements.txt
+
+
+
+
+

@@ -29,7 +29,16 @@ pip install flask flask_sqlalchemy pyjwt gunicorn psycopg2-binary
 Depois digite o codigo seguinte no terminal: pip freeze > requirements.txt
 Este comando vai criar o arquivo requirements.txt
 
+Agora entre em https://render.com/
+get started for free
+entre pelo github
+Depois das confirmações vá em new, webservices, Build and deploy from a Git repository
+Depois vc conecta o repositorio do projeto(vai aparecer uma lista com repositorios do seu github)    
 
+Após isso, na página busque o campo Advanced(final da página) e em add environment variable digite
+PYTHON_VERSION e no campo ao lado digite 3.11.4 (versão estável do python)
+Após, clique em create webservices
 
+Aguarde a mensagem in progress... terminar pra ver o serviço online
 
 
